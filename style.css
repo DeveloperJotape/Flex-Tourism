@@ -10,11 +10,31 @@
     display: flex;
     max-width: 992px;
     margin: auto;
+    width: 100%;
 }
-/* header */
 ul{
     list-style: none;
 }
 ul li a{
     text-decoration: none;
+}
+/* header */
+header{
+   background-color: #122A57; 
+   height: 10vh;
+   display: flex;
+   align-items: center;
+   color: #fff;
+}
+header .list-items{
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+}
+header .list-items li a{
+    color: #fff;
+}
+header .menu{
+    justify-content: space-between;
 }
