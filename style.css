@@ -1,7 +1,20 @@
+/* general settings */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+}
+/* header */
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
 }
