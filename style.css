@@ -15,7 +15,7 @@
 ul{
     list-style: none;
 }
-ul li a{
+a{
     text-decoration: none;
 }
 /* header */
@@ -26,15 +26,46 @@ header{
    align-items: center;
    color: #fff;
 }
+header .title{
+    font-size: 1.3rem;
+}
 header .list-items{
     display: flex;
     width: 100%;
     max-width: 260px;
     justify-content: space-between;
+    align-items: center;
 }
 header .list-items li a{
     color: #fff;
 }
 header .menu{
     justify-content: space-between;
+}
+
+/* main */
+.banner{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-text{
+    min-height: 200px;
+}
+.banner .banner-text h1{
+    color: #122A57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.banner .banner-text a{
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
