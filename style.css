@@ -11,6 +11,7 @@
     max-width: 992px;
     margin: auto;
     width: 100%;
+    min-width: 320px;
 }
 ul{
     list-style: none;
@@ -62,7 +63,7 @@ header .menu{
     justify-content: space-between;
 }
 
-/* main */
+/* banner */
 .banner{
     height: 80vh;
     align-items: center;
@@ -162,6 +163,8 @@ header .menu{
 .plans h2{
     font-size: 32px;
     color: #122A57;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .plans .list-plans{
     display: flex;
@@ -172,9 +175,10 @@ header .menu{
     text-align: center;
     flex: 1;
     border: 5px solid #122A57;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 10px;
-    max-width: 260px;
+    max-width: 250px;
 }
 .item-plan h3{
     font-size: 25px;
@@ -223,4 +227,41 @@ footer{
 footer .footer{
     justify-content: space-between;
     
+}
+/* mobile */
+@media(max-width: 992px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner .banner-text{
+        width: 100%;
+    }
+    .about-us{
+        flex-direction: column-reverse;
+    }
+    .about-us img{
+        min-width: 320px;
+        margin: auto;
+    }
+    .list-services{
+        flex-direction: column;    
+    }
+    .list-services .item-service img{
+        width: 50%;
+        margin: auto;
+    }
+    .plans .list-plans{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .plans .list-plans .item-plan{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
