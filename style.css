@@ -64,7 +64,7 @@ header .menu{
 
 /* main */
 .banner{
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     justify-content: space-between;
 }
@@ -80,7 +80,8 @@ header .menu{
 /* about us */
 .about-us{
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    height: 60vh;  
 }
 .about-us h2{
     font-size: 32px;
@@ -155,7 +156,7 @@ header .menu{
 /* plans */
 .plans{
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 60vh;
     padding-top: 50px;
 }
 .plans h2{
@@ -214,4 +215,12 @@ header .menu{
 /* footer */
 footer{
     background-color: #122A57;
+    height: 70px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+footer .footer{
+    justify-content: space-between;
+    
 }
