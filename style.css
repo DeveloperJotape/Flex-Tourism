@@ -22,6 +22,18 @@ div img{
     display: block;
     width: 100%;
 }
+.btn{
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* header */
 header{
    background-color: #122A57; 
@@ -64,18 +76,6 @@ header .menu{
     font-size: 48px;
     margin-bottom: 10px;
 }
-.banner .banner-text a{
-    background-color: #122A57;
-    color: #fff;
-    text-align: center;
-    border-radius: 30px;
-    width: 220px;
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 /* about us */
 .about-us{
@@ -99,4 +99,119 @@ header .menu{
 .about-us p{
     margin-bottom: 10px;
     width: 100%;
+}
+.about-us img{
+    min-width: 480px;
+}
+
+/* services */
+.services{
+    background-color: #122A57;
+    width: 100%;
+}
+#services{
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#services h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.list-services{
+    display: flex;
+    justify-content: space-between;
+}
+.list-services .item-service{
+    text-align: center;
+}
+.list-services .item-service a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #122A57;
+    font-size: 14px;
+    font-weight: 700;
+}
+.list-services .item-service p{
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+}
+.list-services .item-service img{
+    width: 80%;
+    margin: auto;
+}
+
+/* plans */
+.plans{
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+.plans h2{
+    font-size: 32px;
+    color: #122A57;
+}
+.plans .list-plans{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.plans .list-plans .item-plan{
+    text-align: center;
+    flex: 1;
+    border: 5px solid #122A57;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 260px;
+}
+.item-plan h3{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.item-plan h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.item-plan .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.item-plan ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.item-plan ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.item-plan ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
+}
+/* footer */
+footer{
+    background-color: #122A57;
 }
